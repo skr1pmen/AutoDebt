@@ -103,7 +103,8 @@ nav{
 .about_wrapper{
     height: 180px;
     overflow: hidden;
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
     padding: 19px 0 40px;
 }
 .about .btn{
@@ -111,8 +112,12 @@ nav{
     text-align: center;
     width: max-content;
     background: #fff;
-    border-top: none;
     margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+    cursor: pointer;
 }
 .about .btn:hover{
     background: #000;
@@ -294,4 +299,5 @@ li:before{
     margin: 30px auto 0;
     border-radius: 100px;
     border: 2px solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
