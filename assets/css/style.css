@@ -58,6 +58,13 @@ nav{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transform: translate(0, 15%);
+    opacity: 0;
+    transition: .8s linear;
+}
+.title.active{
+     transform: translate(0, 0);
+     opacity: 1;
 }
 .subtitle{
     color: #000;
@@ -68,6 +75,13 @@ nav{
     font-weight: 400;
     line-height: normal;
     margin-bottom: 25px;
+    transform: translate(0, -15%);
+    opacity: 0;
+    transition: .8s linear;
+}
+.subtitle.active{
+    transform: translate(0, 0);
+    opacity: 1;
 }
 .btn{
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -87,6 +101,13 @@ nav{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transform: translate(0, -15%);
+    opacity: 0;
+    transition: .8s linear;
+}
+.block_title.active{
+    opacity: 1;
+    transform: translate(0, 0);
 }
 .block_text{
     color: rgba(0, 0, 0, 0.85);
@@ -96,6 +117,22 @@ nav{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transform: translate(0, 15%);
+    opacity: 0;
+    transition: .8s linear;
+}
+.block_text.active{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.about{
+    transform: translate(0, -15%);
+    opacity: 0;
+    transition: .8s linear;
+}
+.about.active{
+    transform: translate(0, 0);
+    opacity: 1;
 }
 .about_wrapper .block_text{
     width: 900px;
@@ -150,6 +187,13 @@ nav{
     grid-template-areas: "num que" "ans ans";
     grid-column-gap: 55px;
     grid-template-columns: 1em auto;
+    transform: translate(0, 15%);
+    opacity: 0;
+    transition: .8s linear;
+}
+.question_block.active{
+    opacity: 1;
+    transform: translate(0, 0);
 }
 .number{
     grid-area: num;
@@ -200,6 +244,13 @@ nav{
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    transform: translate(0, -15%);
+    opacity: 0;
+    transition: .5s linear;
+}
+.person.active{
+    opacity: 1;
+    transform: translate(0, 0);
 }
 .avatars{
     width: 125px;
@@ -252,6 +303,13 @@ nav{
     padding: 56px 70px;
     border-radius: 10px;
     width: 370px;
+    transform: translate(15%, 0);
+    opacity: 0;
+    transition: .6s linear;
+}
+.package.active{
+    transform: translate(0, 0);
+    opacity: 1;
 }
 ul{
     margin-top: 44px;
