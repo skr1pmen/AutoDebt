@@ -362,3 +362,37 @@ li:before{
     border: 2px solid rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+footer{
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin: 10px auto;
+    font-size: 24px;
+}
+.footer_logo img{
+    width: 91.7px;
+    height: 62px;
+}
+.links{
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.links a{
+    font-size: 16px;
+}
+.footer_up,
+.footer_down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.footer_down{
+    border-top: 1px solid rgba(0, 0, 0, 0.75);
+}
