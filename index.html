@@ -9,179 +9,196 @@
     <title>Главная</title>
 </head>
 <body>
+<div class="container">
+    <header>
+        <a class="logo" href="./"><img src="./assets/img/logo.svg" alt="Logo"></a>
+        <nav>
+            <a class="link" href="#about">О нас</a>
+            <a class="link" href="#team">Наша команда</a>
+            <a class="link" href="#faq">Чаво</a>
+            <a class="link" href="#contacts">Контакты</a>
+            <a class="link" href="#packages">Готовые пакеты</a>
+        </nav>
+    </header>
+</div>
+<div class="w_block">
     <div class="container">
-        <header>
-            <a class="logo" href="./"><img src="./assets/img/logo.svg" alt="Logo"></a>
-            <nav>
+        <div class="title animItems animStop">AutoDebt</div>
+        <p class="subtitle animItems animStop">Вернуть долги - это просто!</p>
+        <a href="#" class="btn">ПОДРОБНЕЕ</a>
+    </div>
+</div>
+<div class="about animItems animStop" id="about">
+    <div class="container">
+        <input type="checkbox" id="about_hidden">
+        <div class="about_wrapper">
+            <div class="block_title animItems animStop">О нас</div>
+            <div class="block_text animItems animStop">AUTO DEBT – это автоматизированная система для банков, страховых
+                компаний, МФО и любых других финансовых организаций которая позволяет упростить, удешевить и ускорить
+                взыскание имущества и денежных средств со своих должников.<br>
+                Данная программа позволяет финансовой организации автоматизировать процесс взыскания долгов через
+                Федеральную Службу Судебных Приставов Российской Федерации за счёт сокращения сроков подачи заявлений,
+                жалоб, ходатайств и прочих обращений, отслеживать ход исполнительного производства по всей базе
+                должников без влияния человеческого фактора. Также программа позволяет руководству финансовой
+                организации осуществлять в режиме реального времени качественный контроль процесса взыскания как на
+                макро- так и на микро уровне (от контроля за регионом до оценки работы отдельного сотрудника).<br>
+                Помимо этого, руководители всегда смогут получить наглядную и развернутую статистику на любом этапе
+                процесса взыскания. По итогу за счёт внедрения этой программы Вы как финансовая организация сможете
+                заработать дополнительные деньги за счёт ускорения и оптимизации процесса взыскания, а также сократить
+                расходы на содержание штата юристов и одновременно повысить их качество работы.
+            </div>
+        </div>
+        <label for="about_hidden" class="btn">ПОДРОБНЕЕ</label>
+    </div>
+</div>
+<div class="faq" id="faq">
+    <div class="container">
+        <div class="block_title animItems animStop">ЧаВО</div>
+        <div class="block_text animItems animStop">Ответы на самые популярные вопросы</div>
+        <div class="questions">
+            <div class="question_block animItems animStop">
+                <div class="number">01</div>
+                <div class="question">Зачем мне ваша система?</div>
+                <div class="answer">Вы сократите затраты, ускорите процесс возврата долга, получите полный контроль над
+                    процессом выскания долгов.
+                </div>
+            </div>
+            <div class="question_block animItems animStop">
+                <div class="number">02</div>
+                <div class="question">Вы помогаете взыскать долги законным способом?</div>
+                <div class="answer">Да. Наша система помогает взыскать деньгитолько законным способом. С помощью
+                    оптимизации работы с судебными приставами.
+                </div>
+            </div>
+            <div class="question_block animItems animStop">
+                <div class="number">03</div>
+                <div class="question">Вы коллекторы?</div>
+                <div class="answer">Нет, мы не коллекторы. :) Мы IT.</div>
+            </div>
+            <div class="question_block animItems animStop">
+                <div class="number">04</div>
+                <div class="question">Вы обучаете работе с вашей программой?</div>
+                <div class="answer">Да, конечно. Группа наших специалистов будет выезжать к вам на объект и обучать
+                    ваших сотрудников.
+                </div>
+            </div>
+            <div class="question_block animItems animStop">
+                <div class="number">05</div>
+                <div class="question">Как быстро окупается?</div>
+                <div class="answer">Зависит от количества ваших должников.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="team" id="team">
+    <div class="block_title animItems animStop">Наша команда</div>
+    <div class="block_text animItems animStop">Участники нашей команды работающие над проектом</div>
+    <div class="teams_card">
+        <div class="person animItems animStop">
+            <img src="./assets/img/photo_01.jpg" alt="" class="avatars">
+            <div class="person_name">Дмитрий Желонкин</div>
+            <div class="person_position">Должность</div>
+        </div>
+        <div class="person animItems animStop">
+            <img src="./assets/img/photo_02.jpg" alt="" class="avatars">
+            <div class="person_name">Галина Радченко</div>
+            <div class="person_position">Должность</div>
+        </div>
+        <div class="person animItems animStop">
+            <img src="./assets/img/photo_03.jpg" alt="" class="avatars">
+            <div class="person_name">Владимир Крупкин</div>
+            <div class="person_position">Технический директор</div>
+        </div>
+        <div class="person animItems animStop">
+            <img src="./assets/img/photo_04.jpg" alt="" class="avatars">
+            <div class="person_name">Сергей Никонов</div>
+            <div class="person_position">Должность</div>
+        </div>
+        <div class="person animItems animStop">
+            <img src="./assets/img/photo_05.jpg" alt="" class="avatars">
+            <div class="person_name">Данил Бучилкин</div>
+            <div class="person_position">Должность</div>
+        </div>
+    </div>
+</div>
+<div class="contact" id="contacts">
+    <div class="container">
+        <div class="block_title animItems animStop">Наши контакты</div>
+        <div class="info">
+            www.website.ru<br>
+            8 (987) 654 32-10
+        </div>
+    </div>
+</div>
+<div class="service_package" id="packages">
+    <div class="container">
+        <div class="block_title animItems animStop">Готовые пакеты</div>
+        <div class="block_text animItems animStop">Мы собрали специально для вас готовые пакеты которые будут вам
+            удобны
+        </div>
+        <div class="packages">
+            <div class="package animItems animStop">
+                <div class="package_text">
+                    <div class="package_title">Стандартный</div>
+                </div>
+                <ul>
+                    <li>Поддержка: <span>8/5</span></li>
+                    <li>Количество пользователей: <span>до 10 тыс чел.</span></li>
+                    <li>Тема: <span>Базовая</span></li>
+                    <li>Обучение: <span>до 5 филиалов</span></li>
+                    <li>Приоритет обработки: <span>Нормальный</span></li>
+                </ul>
+                <a href="" class="package_btn">Get Started</a>
+            </div>
+            <div class="package animItems animStop">
+                <div class="package_text">
+                    <div class="package_title">Расширенный</div>
+                </div>
+                <ul>
+                    <li>Поддержка: <span>24/5</span></li>
+                    <li>Количество пользователей: <span>до 100 тыс чел.</span></li>
+                    <li>Тема: <span>Набор тем</span></li>
+                    <li>Обучение: <span>до 10 филиалов</span></li>
+                    <li>Приоритет обработки: <span>Повышенный</span></li>
+                    <li>Наличие юр.сопровождения: <span>Частично</span></li>
+                </ul>
+                <a href="" class="package_btn">Get Started</a>
+            </div>
+            <div class="package animItems animStop">
+                <div class="package_text">
+                    <div class="package_title">Премиум</div>
+                </div>
+                <ul>
+                    <li>Поддержка: <span>24/7</span></li>
+                    <li>Количество пользователей: <span>до 1 млн чел.</span></li>
+                    <li>Тема: <span>Персональный дизайн</span></li>
+                    <li>Личный менеджер: <span>Есть</span></li>
+                    <li>Обучение: <span>> 10 филиалов</span></li>
+                    <li>Приоритет обработки: <span>Максимальный</span></li>
+                    <li>Наличие юр.сопровождения: <span>Полное</span></li>
+                </ul>
+                <a href="" class="package_btn">Get Started</a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer_up">
+            <a class="footer_logo" href="./"><img src="./assets/img/logo_.svg" alt="Logo"> AutoDebt</a>
+        </div>
+        <div class="footer_down">
+            <div class="links">
                 <a class="link" href="#about">О нас</a>
                 <a class="link" href="#team">Наша команда</a>
                 <a class="link" href="#faq">Чаво</a>
                 <a class="link" href="#contacts">Контакты</a>
                 <a class="link" href="#packages">Готовые пакеты</a>
-            </nav>
-        </header>
-    </div>
-    <div class="w_block">
-        <div class="container">
-            <div class="title animItems animStop">AutoDebt</div>
-            <p class="subtitle animItems animStop">Вернуть долги - это просто!</p>
-            <a href="#" class="btn">ПОДРОБНЕЕ</a>
+            </div>
+            © AutoDebt, 2023
         </div>
     </div>
-    <div class="about animItems animStop" id="about">
-        <div class="container">
-            <input type="checkbox" id="about_hidden">
-            <div class="about_wrapper">
-                <div class="block_title animItems animStop">О нас</div>
-                <div class="block_text animItems animStop">AUTO DEBT – это автоматизированная система для банков, страховых компаний, МФО и любых других финансовых организаций которая позволяет упростить, удешевить и ускорить взыскание имущества и денежных средств со своих должников.<br>
-                    Данная программа позволяет финансовой организации автоматизировать процесс взыскания долгов через Федеральную Службу Судебных Приставов Российской Федерации за счёт сокращения сроков подачи заявлений, жалоб, ходатайств и прочих обращений, отслеживать ход исполнительного производства по всей базе должников без влияния человеческого фактора. Также программа позволяет руководству финансовой организации осуществлять в режиме реального времени качественный контроль процесса взыскания как на макро- так и на микро уровне (от контроля за регионом до оценки работы отдельного сотрудника).<br>
-                    Помимо этого, руководители всегда смогут получить наглядную и развернутую статистику на любом этапе процесса взыскания. По итогу за счёт внедрения этой программы Вы как финансовая организация сможете заработать дополнительные деньги за счёт ускорения и оптимизации процесса взыскания, а также сократить расходы на содержание штата юристов и одновременно повысить их качество работы.</div>
-            </div>
-            <label for="about_hidden" class="btn">ПОДРОБНЕЕ</label>
-        </div>
-    </div>
-    <div class="faq" id="faq">
-        <div class="container">
-            <div class="block_title animItems animStop">ЧаВО</div>
-            <div class="block_text animItems animStop">Ответы на самые популярные вопросы</div>
-            <div class="questions">
-                <div class="question_block animItems animStop">
-                    <div class="number">01</div>
-                    <div class="question">Зачем мне ваша система?</div>
-                    <div class="answer">Вы сократите затраты, ускорите процесс возврата долга, получите полный контроль над процессом выскания долгов.</div>
-                </div>
-                <div class="question_block animItems animStop">
-                    <div class="number">02</div>
-                    <div class="question">Вы помогаете взыскать долги законным способом?</div>
-                    <div class="answer">Да. Наша система помогает взыскать деньгитолько законным способом. С помощью оптимизации работы с  судебными приставами.</div>
-                </div>
-                <div class="question_block animItems animStop">
-                    <div class="number">03</div>
-                    <div class="question">Вы коллекторы?</div>
-                    <div class="answer">Нет, мы не коллекторы. :) Мы IT.</div>
-                </div>
-                <div class="question_block animItems animStop">
-                    <div class="number">04</div>
-                    <div class="question">Вы обучаете работе с вашей программой?</div>
-                    <div class="answer">Да, конечно. Группа наших специалистов будет выезжать к вам на объект и обучать ваших сотрудников.</div>
-                </div>
-                <div class="question_block animItems animStop">
-                    <div class="number">05</div>
-                    <div class="question">Как быстро окупается?</div>
-                    <div class="answer">Зависит от количества ваших должников.</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="team" id="team">
-        <div class="container">
-            <div class="block_title animItems animStop">Наша команда</div>
-            <div class="block_text animItems animStop">Участники нашей команды работающие над проектом</div>
-            <div class="teams_card">
-                <div class="person animItems animStop">
-                    <img src="" class="avatars">
-                    <div class="person_name">Имя Фамилия</div>
-                    <div class="person_position">Должность</div>
-                </div>
-                <div class="person animItems animStop">
-                    <img src="" class="avatars">
-                    <div class="person_name">Имя Фамилия</div>
-                    <div class="person_position">Должность</div>
-                </div>
-                <div class="person animItems animStop">
-                    <img src="" class="avatars">
-                    <div class="person_name">Имя Фамилия</div>
-                    <div class="person_position">Должность</div>
-                </div>
-                <div class="person animItems animStop">
-                    <img src="" class="avatars">
-                    <div class="person_name">Имя Фамилия</div>
-                    <div class="person_position">Должность</div>
-                </div>
-                <div class="person animItems animStop">
-                    <img src="" class="avatars">
-                    <div class="person_name">Имя Фамилия</div>
-                    <div class="person_position">Должность</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="contact" id="contacts">
-        <div class="container">
-            <div class="block_title animItems animStop">Наши контакты</div>
-            <div class="info">
-                www.website.ru<br>
-                8 (987) 654 32-10
-            </div>
-        </div>
-    </div>
-    <div class="service_package" id="packages">
-        <div class="container">
-            <div class="block_title animItems animStop">Готовые пакеты</div>
-            <div class="block_text animItems animStop">Мы собрали специально для вас готовые пакеты которые будут вам удобны</div>
-            <div class="packages">
-                <div class="package animItems animStop">
-                    <div class="package_text">
-                        <div class="package_title">Стандартный</div>
-                    </div>
-                    <ul>
-                        <li>Поддержка: <span>8/5</span></li>
-                        <li>Количество пользователей: <span>до 10 тыс чел.</span></li>
-                        <li>Тема: <span>Базовая</span></li>
-                        <li>Обучение: <span>до 5 филиалов</span></li>
-                        <li>Приоритет обработки: <span>Нормальный</span></li>
-                    </ul>
-                    <a href="" class="package_btn">Get Started</a>
-                </div>
-                <div class="package animItems animStop">
-                    <div class="package_text">
-                        <div class="package_title">Расширенный</div>
-                    </div>
-                    <ul>
-                        <li>Поддержка: <span>24/5</span></li>
-                        <li>Количество пользователей: <span>до 100 тыс чел.</span></li>
-                        <li>Тема: <span>Набор тем</span></li>
-                        <li>Обучение: <span>до 10 филиалов</span></li>
-                        <li>Приоритет обработки: <span>Повышенный</span></li>
-                        <li>Наличие юр.сопровождения: <span>Частично</span></li>
-                    </ul>
-                    <a href="" class="package_btn">Get Started</a>
-                </div>
-                <div class="package animItems animStop">
-                    <div class="package_text">
-                        <div class="package_title">Премиум</div>
-                    </div>
-                    <ul>
-                        <li>Поддержка: <span>24/7</span></li>
-                        <li>Количество пользователей: <span>до 1 млн чел.</span></li>
-                        <li>Тема: <span>Персональный дизайн</span></li>
-                        <li>Личный менеджер: <span>Есть</span></li>
-                        <li>Обучение: <span>> 10 филиалов</span></li>
-                        <li>Приоритет обработки: <span>Максимальный</span></li>
-                        <li>Наличие юр.сопровождения: <span>Полное</span></li>
-                    </ul>
-                    <a href="" class="package_btn">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="container">
-            <div class="footer_up">
-                <a class="footer_logo" href="./"><img src="./assets/img/logo_.svg" alt="Logo"> AutoDebt</a>
-            </div>
-            <div class="footer_down">
-                <div class="links">
-                    <a class="link" href="#about">О нас</a>
-                    <a class="link" href="#team">Наша команда</a>
-                    <a class="link" href="#faq">Чаво</a>
-                    <a class="link" href="#contacts">Контакты</a>
-                    <a class="link" href="#packages">Готовые пакеты</a>
-                </div>
-                © AutoDebt, 2023
-            </div>
-        </div>
-    </footer>
-    <script src="./assets/scripts/animation.js"></script>
+</footer>
+<script src="./assets/scripts/animation.js"></script>
 </body>
 </html>

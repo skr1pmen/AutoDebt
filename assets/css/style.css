@@ -153,8 +153,8 @@ nav{
     margin: 0 auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-top: none;
     cursor: pointer;
@@ -171,7 +171,7 @@ nav{
 }
 .faq{
     margin-top: 76px;
-    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
     padding: 25px;
 }
 .questions{
@@ -236,8 +236,9 @@ nav{
     justify-content: center;
 }
 .person{
-    width: 370px;
-    height: 370px;
+    width: max-content;
+    height: max-content ;
+    padding: 35px 45px;
     border-radius: 10px;
     border: 2px solid #EBEAED;
     display: flex;
@@ -255,7 +256,7 @@ nav{
 .avatars{
     width: 125px;
     height: 125px;
-    margin: 50px auto 29px;
+    margin: 0 auto 29px;
     background: #848484;
     border-radius: 50%;
 }
