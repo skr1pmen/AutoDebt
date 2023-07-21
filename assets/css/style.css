@@ -306,6 +306,9 @@ nav{
     transform: translate(15%, 0);
     opacity: 0;
     transition: .6s linear;
+    display: grid;
+    grid-template-areas: "text""btn";
+    grid-template-rows: auto 86px;
 }
 .package.active{
     transform: translate(0, 0);
@@ -317,14 +320,12 @@ ul{
     display: flex;
     gap: 10px;
     flex-direction: column;
+    grid-area: text;
 }
-.check:before{
-    content: '✔';
-    color: green;
-}
-li:before{
-    content: '✔';
-    color: gray;
+li span{
+    display: flex;
+    justify-content: start;
+    font-size: 18px;
 }
 .package_text{
     display: flex;
@@ -332,6 +333,7 @@ li:before{
     justify-content: start;
     align-items: start;
     flex-direction: column;
+    grid-area: text;
 }
 .package_title{
     color: #000;
@@ -341,19 +343,6 @@ li:before{
     font-weight: 500;
     line-height: 32px;
 }
-.package_price{
-    color: #000;
-    text-align: center;
-    font-family: "DM Sans", sans-serif;
-    font-size: 58px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 70px;
-    letter-spacing: -1px;
-}
-.package_price span{
-    font-size: 16px;
-}
 .package_btn{
     display: block;
     padding: 17px 60px;
@@ -361,6 +350,7 @@ li:before{
     border-radius: 100px;
     border: 2px solid rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    grid-area: btn;
 }
 footer{
     margin-top: 50px;
