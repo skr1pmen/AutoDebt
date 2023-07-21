@@ -237,7 +237,7 @@ nav{
 }
 .person{
     width: max-content;
-    height: max-content ;
+    height: 330px;
     padding: 35px 45px;
     border-radius: 10px;
     border: 2px solid #EBEAED;
@@ -278,6 +278,7 @@ nav{
     font-weight: 700;
     line-height: 26px;
     text-transform: uppercase;
+    max-width: 175px;
 }
 .contact,
 .service_package,
