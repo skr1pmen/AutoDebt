@@ -52,6 +52,10 @@ nav{
     justify-content: center;
     align-items: center;
 }
+.w_logo{
+    width: 170px;
+    height: 170px;
+}
 .title{
     color: #000;
     font-family: 'DM Sans', sans-serif;
@@ -432,7 +436,6 @@ footer{
     height: 62px;
 }
 .links{
-    margin-top: 10px;
     display: flex;
     gap: 15px;
 }
@@ -444,8 +447,182 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 10px;
+    padding: 20px 10px;
 }
 .footer_down{
     border-top: 1px solid rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 850px;
+    }
+    .link{
+        font-size: 18px;
+    }
+    .w_logo{
+        width: 130px;
+        height: 130px;
+    }
+    .title{
+        font-size: 98px;
+    }
+    .subtitle{
+        font-size: 32px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    .block_title{
+        font-size: 32px;
+    }
+    .about_wrapper{
+        padding: 25px 25px 40px;
+    }
+    .about_wrapper .block_text{
+        width: 100%;
+    }
+    .questions{
+        width: 850px;
+    }
+    .question_block{
+        width: 100%;
+    }
+    .number,.question{
+        font-size: 26px;
+    }
+    .answer{
+        font-size: 18px;
+    }
+    .person_name{
+        font-size: 18px;
+    }
+    .person_position{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .packages{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container, .team .container{
+        width: 600px;
+    }
+    .link{
+        font-size: 17px;
+    }
+    .w_logo{
+        width: 90px;
+        height: 90px;
+    }
+    .title{
+        font-size: 75px;
+    }
+    .subtitle{
+        font-size: 28px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .block_title{
+        font-size: 28px;
+    }
+    .about_wrapper{
+        padding: 25px 25px 40px;
+    }
+    .about_wrapper .block_text{
+        width: 100%;
+        font-size: 18px;
+    }
+    .questions{
+        width: 600px;
+    }
+    .question_block{
+        width: 100%;
+    }
+    .number,.question{
+        font-size: 26px;
+    }
+    .answer{
+        font-size: 18px;
+    }
+    .person_name{
+        font-size: 18px;
+    }
+    .person_position{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .packages{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container, .team .container, .questions{
+        width: 350px;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .link{
+        font-size: 14px;
+    }
+    .w_logo{
+        width: 50px;
+        height: 50px;
+    }
+    .title{
+        font-size: 43px;
+        align-items: center;
+        gap: 5px;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+    .block_title{
+        font-size: 24px;
+    }
+    .about_wrapper{
+        padding: 25px 25px 40px;
+    }
+    .about_wrapper .block_text{
+        width: 100%;
+        font-size: 16px;
+        height: 36vh;
+    }
+    .question_block{
+        width: 100%;
+    }
+    .number,.question{
+        font-size: 18px;
+    }
+    .answer{
+        font-size: 14px;
+    }
+    .footer_down{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
 }
