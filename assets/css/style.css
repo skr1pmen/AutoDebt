@@ -350,6 +350,9 @@ nav{
     line-height: 26px;
     text-align: center;
     margin-top: 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
 .packages{
     margin-top: 25px;
